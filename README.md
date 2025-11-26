@@ -1,12 +1,25 @@
 # Docusign eSign PHP Laravel
 A Laravel wrapper for the [DocuSign eSign PHP Client](https://github.com/docusign/docusign-esign-php-client)
 
-### Install Through Composer
+### To use this add the following to your composer.json file
 
 ```
-composer require docusign/esign-laravel
+"repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/ResamkitheDeveloper/docusign-esign-php-laravel"
+  }
+],
 ```
-
+```
+"require": {
+  "docusign/esign-laravel": "dev-main",
+}
+```
+### Then run this in terminal while in project folder
+```
+composer update docusign/esign-laravel --with-all-dependencies
+```
 Add the service provider to the `providers` array in `config/app.php`
 
 ```php
