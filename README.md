@@ -17,7 +17,7 @@ A Laravel wrapper for the [DocuSign eSign PHP Client](https://github.com/docusig
   "docusign/esign-laravel": "dev-main",
 }
 ```
-### Then run this in terminal while in project folder
+### Then run this in terminal while in project directory
 ```
 composer update docusign/esign-laravel --with-all-dependencies
 ```
