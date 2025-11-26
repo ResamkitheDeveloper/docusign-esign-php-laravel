@@ -21,7 +21,7 @@ A Laravel wrapper for the [DocuSign eSign PHP Client](https://github.com/docusig
 ```
 composer update docusign/esign-laravel --with-all-dependencies
 ```
-Add the service provider to the `providers` array in `config/app.php`
+Add the service provider to the `providers` array in `config/app.php` or for laravel 12x in `bootstrap/providers.php`
 
 ```php
 DocuSign\eSign\ESignServiceProvider::class
