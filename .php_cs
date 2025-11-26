@@ -3,7 +3,7 @@
 return PhpCsFixer\Config::create()
     ->setUsingCache(true)
     ->setRules([
-        '@PSR2' => true,
+        '@PSR12' => true,
         'ordered_imports' => true,
         'phpdoc_order' => true,
         'array_syntax' => [ 'syntax' => 'short' ],
