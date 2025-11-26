@@ -1,4 +1,4 @@
-## Compatibility update for guzzle v7.10.0 and above, docusign/esign-client v8.5.0 and above and php >=8.2
+## Compatibility update for guzzle >=7.10.0, docusign/esign-client >=8.5.0 and php >=8.2
 # Docusign eSign PHP Laravel
 A Laravel wrapper for the [DocuSign eSign PHP Client](https://github.com/docusign/docusign-esign-php-client)
 
